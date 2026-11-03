@@ -30,8 +30,9 @@ motivation::before{content:"Opinion of the Court";font-size:1.05em;color:var(--i
 decision::before{content:"Judgment"}
 introduction p{text-indent:0}
 p[class~="delivered"]{text-indent:0;text-align:center;font-style:italic;hyphens:none;text-wrap:balance}
-motivation>p:nth-of-type(2)::first-letter{float:left;font-size:3.3em;line-height:.82;padding:.06em .09em 0 0}
-motivation>p:nth-of-type(2){text-indent:0}
+p[class~="running"]{text-indent:0;text-align:center;font-size:.8em;color:var(--soft)}
+motivation>p:nth-of-type(3)::first-letter{float:left;font-size:3.3em;line-height:.82;padding:.06em .09em 0 0}
+motivation>p:nth-of-type(3){text-indent:0}
 decision p{text-align:center;text-indent:0;font-size:1.2em;letter-spacing:.03em}
 span[class~="landmark"]{background:linear-gradient(transparent 12%,var(--mark) 12%,var(--mark) 92%,transparent 92%);-webkit-box-decoration-break:clone;box-decoration-break:clone;padding:0 .12em}
 person,lawyer,judge,party,ref,span{display:inline}

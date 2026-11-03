@@ -21,13 +21,35 @@ To view the document locally, keep the XML and CSS files in the same folder and 
 - **Marginal notes:** The reporter's two marginal notes are gathered in `<introduction>`. The section labels on the page come from the stylesheet and are not in the XML.
 - **People:** Parties, counsel, witnesses and the Chief Justice are marked at their first mention, with `<party>`, `<lawyer>`, `<person>` and `<judge>`.
 - **Highlights:** Three passages are in `<span class="landmark">`. The highlighting is editorial.
-- **Page numbers:** The source does not carry the report's page breaks, so they are not marked.
+- **Identifiers:** Every element with an `eId` also has a `GUID`. Text-level `<p>` elements have neither.
 
 ## Sources
 
-Text: [Harvard Law School Library, Caselaw Access Project](https://static.case.law/us/5/cases/0137-01.json). Spelling and usage follow that text, including "shew", "enquiry" and "removeable".
+Text: [Harvard Law School Library, Caselaw Access Project](https://static.case.law/us/5/cases/0137-01.json). The text is verbatim, including its spelling, spacing and punctuation.
 
-The source is machine-read from a scan. The repeated quotation marks that the 1803 printing set at the start of each line were removed, and scanning errors were corrected. The opinion was compared word by word with the [Legal Information Institute](https://www.law.cornell.edu/supremecourt/text/5/137) text, which modernizes spelling. The arguments and testimony have no second source here and were corrected by reading. One correction is an inference: the source reads "as many as 2" commissions in the affidavit of James Marshall, which is given here as 12, because the affidavit goes on to say he could not carry them all.
+That source is machine-read from a scan, and no scanning errors were corrected. It includes the repeated quotation marks that the 1803 printing set at the start of each line, and the running note "Opinion of the court." Page breaks are not marked, because the source does not carry them.
+
+## Suspected errors, left as they are
+
+These look like scanning errors, but they have not been checked against a scan of the report. A comparison of the opinion with the [Legal Information Institute](https://www.law.cornell.edu/supremecourt/text/5/137) text, and a reading of the arguments, found:
+
+| Passage | Source reads | Probably |
+| --- | --- | --- |
+| Statement of the case | "the late presi-of the United States" | "president" |
+| Reporter's points | "constitution An act"; "President When" | a missing period |
+| Reporter's points | "neccessary" | "necessary" |
+| Duties of the secretary | "from time to time a " order" | stray "a" |
+| Testimony of Mr. Wagner | "that information and the court" | a missing closing quotation mark |
+| Affidavit of James Marshall | "as many as 2" | "12", since he could not carry them all |
+| Mr. Lee's argument | "consequene"; "Blakstone"; "Sidersin" | "consequence"; "Blackstone"; "Siderfin" |
+| Mr. Lee's argument | "note duties"; "the figuring and sealing"; "to to do"; "a found, legal discretion" | "those"; "signing"; "so to do"; "sound" |
+| Opinion | "the country of Washington" | "county" |
+| Opinion | "enjoins on 3 particular" | "a" |
+| Opinion | "It, for example" | "If" |
+| Opinion | "deemed unconditional"; "lost fight of" | "unconstitutional"; "sight" |
+| Opinion | "determime"; "forbiden"; "agreably" | "determine"; "forbidden"; "agreeably" |
+| Opinion | "shall keep that seal"; "the use to" | "the seal"; "the rule to" |
+| Opinion | "for five years." | a missing closing quotation mark |
 
 ## Fonts
 
