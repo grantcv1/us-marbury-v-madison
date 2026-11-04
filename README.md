@@ -54,3 +54,13 @@ These look like scanning errors, but they have not been checked against a scan o
 ## Fonts
 
 The stylesheet embeds IM Fell English and IM Fell English SC, licensed under the [SIL Open Font License](https://openfontlicense.org/). The rendering evokes an early American law report; it does not reproduce the printed volume.
+
+## License
+
+The Akoma Ntoso markup, stylesheet rules, scripts and landing page are under the MIT License in `LICENSE`. That license does not cover the items below, which keep their own terms.
+
+- **Text:** The 1803 opinion, from the Harvard Law School Library's Caselaw Access Project. Believed to be in the public domain. Details are under Sources above.
+- **Images:** None.
+- **Fonts:** IM Fell English and IM Fell English SC, under the licenses in `FONT-LICENSES.md`.
+
+This is an unofficial copy, not an official version of the text.
